@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutArtikel"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/txtIsi"
+        android:layout_marginTop="5dp"
+        android:text="Berita terkini adalah terjadinya kecelakaan antara motor dan mobil di Banyuwangi Kota. Berdasarkan wawancara warga terdekat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

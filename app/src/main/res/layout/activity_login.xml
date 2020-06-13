@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_centerInParent="true"
     android:orientation="vertical"
     android:background="#009688"
@@ -29,7 +29,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="78dp"
-        android:src="@drawable/ic_person_black_24dp"
+        android:src="@drawable/ic_person_white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_white"
                 android:drawablePadding="8dp"
                 android:gravity="center_vertical"
                 android:padding="10dp"
@@ -116,10 +116,11 @@
         </RelativeLayout>
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:background="#ffffff"
             android:text="LOGIN"
             android:textColor="#009688" />
@@ -129,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="50dp"
             android:text="New register?" />
     </LinearLayout>
